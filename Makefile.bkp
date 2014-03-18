@@ -1,0 +1,116 @@
+BIN=testproject
+
+# Headers that don't have c-files with same name
+#  but project depends on them
+INDEPENDENT_HEADERS=stm32f4xx_conf.h usbd_conf.h
+
+STLIBDIR=stm32_lib
+CMSISDIR=cmsis
+OBJDIR=mk
+USB_LIBDIR=usb_lib
+LWIP_LIBDIR=lwip_v1.3.2/src
+LWIP_PORT_DIR=lwip_v1.3.2/port/STM32F4x7
+
+TOOLS_PATH=/usr/arm-none-eabi
+TOOLS_PREFIX=arm-none-eabi-
+
+CPFLAGS=-Obinary --strip-unneeded
+ODFLAGS=-S
+
+CLFLAGS=-mcpu=cortex-m4 -mthumb -mthumb-interwork -mlittle-endian
+
+CFLAGS=$(CLFLAGS) -c -mapcs-frame -Os -DARM_SOURCE
+CFLAGS+=-mfpu=fpv4-sp-d16 -fsingle-precision-constant
+CFLAGS+=-I. -I$(CMSISDIR) -I$(STLIBDIR) -I$(USB_LIBDIR)
+CFLAGS+=-I$(LWIP_LIBDIR)/include -I$(LWIP_PORT_DIR) -I$(LWIP_PORT_DIR)/Standalone
+CFLAGS+=-DSTM32F40XX -DUSE_STDPERIPH_DRIVER -DUSE_USB_OTG_FS -DHSE_VALUE=\(\(uint32_t\)12000000\)
+#CFLAGS+=-DSEPARATE_USB_BUF
+
+LDFLAGS=$(CLFLAGS) -static -Wl,--start-group
+LDFLAGS+=-Wl,--end-group -Xlinker -Map -Xlinker $(BIN).map -Xlinker
+LDFLAGS+=-T ./cmsis/stm32f4xx_flash.ld -o $(BIN)
+LDFLAGS+=-Wl,--gc-sections -Wl,-s
+
+ASFLAGS=$(CLFLAGS) -I./cmsis -I./stm32_lib
+
+CC=$(TOOLS_PREFIX)gcc
+AS=$(TOOLS_PREFIX)as
+SIZE=$(TOOLS_PREFIX)size
+CP=$(TOOLS_PREFIX)objcopy
+OD=$(TOOLS_PREFIX)objdump
+
+# These are main project sources
+SRC=$(wildcard *.c)
+MAIN_OBJ=$(addprefix $(OBJDIR)/, $(SRC:%.c=%.o))
+
+STM32_LIBSRC=$(wildcard $(STLIBDIR)/*.c)
+CMSISCRC=$(wildcard $(CMSISDIR)/*.c)
+ASSRC=$(wildcard $(CMSISDIR)/*.s)
+LIBOBJ=$(addprefix $(OBJDIR)/, $(STM32_LIBSRC:$(STLIBDIR)/%.c=%.o))
+CMSISOBJ=$(addprefix $(OBJDIR)/, $(CMSISCRC:$(CMSISDIR)/%.c=%.o))
+ASOBJ=$(addprefix $(OBJDIR)/, $(ASSRC:$(CMSISDIR)/%.s=%.o))
+
+# USB library sources
+USB_SRC=$(wildcard $(USB_LIBDIR)/*.c)
+#USB_OBJ=$(addprefix $(OBJDIR)/, $(USB_SRC:$(USB_LIBDIR)/%.c=%.o))
+USB_OBJ=$(addprefix $(OBJDIR)/, $(USB_SRC:%.c=%.o))
+
+# LWIP library sources
+LWIP_API_SRC=$(wildcard $(LWIP_LIBDIR)/api/*.c)
+LWIP_CORE_SRC=$(wildcard $(LWIP_LIBDIR)/core/*.c)
+LWIP_IPV4_SRC=$(wildcard $(LWIP_LIBDIR)/core/ipv4/*.c)
+LWIP_METIF_SRC=$(wildcard $(LWIP_LIBDIR)/netif/*.c)
+LWIP_SRC=$(LWIP_API_SRC) $(LWIP_CORE_SRC) $(LWIP_IPV4_SRC) $(LWIP_METIF_SRC)
+LWIP_OBJS=$(addprefix $(OBJDIR)/, $(LWIP_SRC:$(LWIP_LIBDIR)/%.c=%.o))
+
+ALL_OBJ=$(ASOBJ) $(CMSISOBJ) $(LIBOBJ) $(USB_OBJ) $(MAIN_OBJ) $(LWIP_OBJS)
+
+#DIRS=$(OBJDIR) $(LWIP_DIRS)
+
+
+
+all: $(BIN)
+
+$(OBJDIR)/%.o: $(CMSISDIR)/%.s
+	@mkdir -p $(@D)
+	$(AS) $(ASFLAGS) $< -o $@
+
+$(OBJDIR)/%.o: $(CMSISDIR)/%.c
+	$(CC) $(CFLAGS) $< -o $@
+
+$(OBJDIR)/%.o: $(STLIBDIR)/%.c
+	$(CC) $(CFLAGS) $< -o $@
+
+#$(OBJDIR)/%.o: $(USB_LIBDIR)/%.c
+#	$(CC) $(CFLAGS) $< -o $@
+$(USB_OBJ): %.c
+	@mkdir -p $(@D)
+	$(CC) $(CFLAGS) $< -o $@
+
+$(OBJDIR)/%.o: %.c
+	$(CC) -Wall -Werror $(CFLAGS) $< -o $@
+
+$(LWIP_OBJS): $(LWIP_SRC)
+	@mkdir -p $(@D)
+	$(CC) $(CFLAGS) $< -o $@
+
+$(SRC) $(USB_SRC) : %.c : %.h $(INDEPENDENT_HEADERS)
+	@touch $@
+
+%.h: ;
+
+$(BIN): $(ALL_OBJ)
+	$(CC) $(ALL_OBJ) $(LDFLAGS)
+	$(CP) $(CPFLAGS) $(BIN) $(BIN).bin
+	$(OD) $(ODFLAGS) $(BIN) > $(BIN).list
+	$(SIZE) -B $(BIN)
+
+clean:
+	rm -f $(ALL_OBJ) $(BIN).map $(BIN) $(BIN).list
+	rmdir $(OBJDIR)
+
+load: $(BIN)
+	st-flash write $(BIN).bin 0x08000000
+
+
+.PHONY: clean load

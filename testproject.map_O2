@@ -1,0 +1,1207 @@
+Archive member included because of file (symbol)
+
+/usr/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memcmp.o)
+                              mk/lwip_v1.3.2/src/core/ipv4/autoip.o (memcmp)
+/usr/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memcpy.o)
+                              mk/lwip_v1.3.2/src/core/pbuf.o (memcpy)
+/usr/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memset.o)
+                              mk/lwip_v1.3.2/src/core/mem.o (memset)
+
+Allocating common symbols
+Common symbol       size              file
+
+netif_list          0x4               mk/lwip_v1.3.2/src/core/netif.o
+RX_Frame_Descriptor
+                    0xc               mk/stm32_lib/stm32f4x7_eth.o
+USB_OTG_devB        0xe4c             mk/main.o
+SET_TEST_MODE       0x4               mk/usb_lib/usbd_core.o
+tcp_active_pcbs     0x4               mk/lwip_v1.3.2/src/core/tcp.o
+udp_pcbs            0x4               mk/lwip_v1.3.2/src/core/udp.o
+current_netif       0x4               mk/lwip_v1.3.2/src/core/ipv4/ip.o
+tcp_ticks           0x4               mk/lwip_v1.3.2/src/core/tcp.o
+tcp_listen_pcbs     0x4               mk/lwip_v1.3.2/src/core/tcp.o
+DMARxDescToGet      0x4               mk/stm32_lib/stm32f4x7_eth.o
+DMATxDescToSet      0x4               mk/stm32_lib/stm32f4x7_eth.o
+tcp_tmp_pcb         0x4               mk/lwip_v1.3.2/src/core/tcp.o
+tcp_input_pcb       0x4               mk/lwip_v1.3.2/src/core/tcp_in.o
+USB_OTG_devA        0xe4c             mk/main.o
+usbd_cdc_OtherCfgDesc
+                    0x43              mk/usb_lib/usbd_cdc_core.o
+DMATxDscrTab        0xa0              mk/stm32_lib/stm32f4x7_eth.o
+current_header      0x4               mk/lwip_v1.3.2/src/core/ipv4/ip.o
+Rx_Buff             0x1dc4            mk/stm32_lib/stm32f4x7_eth.o
+tcp_bound_pcbs      0x4               mk/lwip_v1.3.2/src/core/tcp.o
+Frame_Rx_index      0x4               mk/stm32_lib/stm32f4x7_eth.o
+DMA_RX_FRAME_infos  0x4               mk/stm32_lib/stm32f4x7_eth.o
+DMARxDscrTab        0xa0              mk/stm32_lib/stm32f4x7_eth.o
+USART_InitStructure
+                    0x10              mk/usbd_cdc_vcp.o
+tcp_tw_pcbs         0x4               mk/lwip_v1.3.2/src/core/tcp.o
+netif_default       0x4               mk/lwip_v1.3.2/src/core/netif.o
+USBD_StrDesc        0xff              mk/usb_lib/usbd_req.o
+Tx_Buff             0x1dc4            mk/stm32_lib/stm32f4x7_eth.o
+
+Discarded input sections
+
+ .text          0x00000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crti.o
+ .data          0x00000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crti.o
+ .bss           0x00000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crti.o
+ .init          0x00000000        0x4 /usr/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crti.o
+ .fini          0x00000000        0x4 /usr/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crti.o
+ .ARM.attributes
+                0x00000000       0x19 /usr/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crti.o
+ .text          0x00000000       0xc8 /usr/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
+ .data          0x00000000        0x4 /usr/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
+ .bss           0x00000000       0x1c /usr/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
+ .init_array    0x00000000        0x4 /usr/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
+ .fini_array    0x00000000        0x4 /usr/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
+ .eh_frame      0x00000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
+ .jcr           0x00000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
+ .tm_clone_table
+                0x00000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
+ .ARM.attributes
+                0x00000000       0x29 /usr/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
+ .data          0x00000000        0x0 mk/interrupts.o
+ .data          0x00000000        0x0 mk/hw_config.o
+ .bss           0x00000000        0x0 mk/hw_config.o
+ .bss           0x00000000        0x0 mk/usbd_usr.o
+ .bss           0x00000000        0x0 mk/main.o
+ .bss           0x00000000        0x0 mk/usbd_desc.o
+ .bss           0x00000000        0x0 mk/usbd_cdc_vcp.o
+ COMMON         0x00000000       0x10 mk/usbd_cdc_vcp.o
+ .data          0x00000000        0x0 mk/stm32_lib/stm32f4xx_gpio.o
+ .bss           0x00000000        0x0 mk/stm32_lib/stm32f4xx_gpio.o
+ .text          0x00000000       0xa0 mk/stm32_lib/stm32f4xx_wwdg.o
+ .data          0x00000000        0x0 mk/stm32_lib/stm32f4xx_wwdg.o
+ .bss           0x00000000        0x0 mk/stm32_lib/stm32f4xx_wwdg.o
+ .comment       0x00000000       0x31 mk/stm32_lib/stm32f4xx_wwdg.o
+ .ARM.attributes
+                0x00000000       0x33 mk/stm32_lib/stm32f4xx_wwdg.o
+ .text          0x00000000      0x20c mk/stm32_lib/stm32f4xx_sai.o
+ .data          0x00000000        0x0 mk/stm32_lib/stm32f4xx_sai.o
+ .bss           0x00000000        0x0 mk/stm32_lib/stm32f4xx_sai.o
+ .comment       0x00000000       0x31 mk/stm32_lib/stm32f4xx_sai.o
+ .ARM.attributes
+                0x00000000       0x33 mk/stm32_lib/stm32f4xx_sai.o
+ .text          0x00000000     0x1000 mk/stm32_lib/stm32f4xx_cryp_aes.o
+ .data          0x00000000        0x0 mk/stm32_lib/stm32f4xx_cryp_aes.o
+ .bss           0x00000000        0x0 mk/stm32_lib/stm32f4xx_cryp_aes.o
+ .comment       0x00000000       0x31 mk/stm32_lib/stm32f4xx_cryp_aes.o
+ .ARM.attributes
+                0x00000000       0x33 mk/stm32_lib/stm32f4xx_cryp_aes.o
+ .text          0x00000000      0x38c mk/stm32_lib/stm32f4xx_dma.o
+ .data          0x00000000        0x0 mk/stm32_lib/stm32f4xx_dma.o
+ .bss           0x00000000        0x0 mk/stm32_lib/stm32f4xx_dma.o
+ .comment       0x00000000       0x31 mk/stm32_lib/stm32f4xx_dma.o
+ .ARM.attributes
+                0x00000000       0x33 mk/stm32_lib/stm32f4xx_dma.o
+ .text          0x00000000      0x204 mk/stm32_lib/stm32f4xx_dac.o
+ .data          0x00000000        0x0 mk/stm32_lib/stm32f4xx_dac.o
+ .bss           0x00000000        0x0 mk/stm32_lib/stm32f4xx_dac.o
+ .comment       0x00000000       0x31 mk/stm32_lib/stm32f4xx_dac.o
+ .ARM.attributes
+                0x00000000       0x33 mk/stm32_lib/stm32f4xx_dac.o
+ .text          0x00000000      0x82c mk/stm32_lib/stm32f4xx_can.o
+ .data          0x00000000        0x0 mk/stm32_lib/stm32f4xx_can.o
+ .bss           0x00000000        0x0 mk/stm32_lib/stm32f4xx_can.o
+ .comment       0x00000000       0x31 mk/stm32_lib/stm32f4xx_can.o
+ .ARM.attributes
+                0x00000000       0x33 mk/stm32_lib/stm32f4xx_can.o
+ .text          0x00000000      0x1e4 mk/stm32_lib/stm32f4xx_hash_sha1.o
+ .data          0x00000000        0x0 mk/stm32_lib/stm32f4xx_hash_sha1.o
+ .bss           0x00000000        0x0 mk/stm32_lib/stm32f4xx_hash_sha1.o
+ .comment       0x00000000       0x31 mk/stm32_lib/stm32f4xx_hash_sha1.o
+ .ARM.attributes
+                0x00000000       0x33 mk/stm32_lib/stm32f4xx_hash_sha1.o
+ .text          0x00000000      0x1ec mk/stm32_lib/stm32f4xx_hash.o
+ .data          0x00000000        0x0 mk/stm32_lib/stm32f4xx_hash.o
+ .bss           0x00000000        0x0 mk/stm32_lib/stm32f4xx_hash.o
+ .comment       0x00000000       0x31 mk/stm32_lib/stm32f4xx_hash.o
+ .ARM.attributes
+                0x00000000       0x33 mk/stm32_lib/stm32f4xx_hash.o
+ .text          0x00000000       0x58 mk/stm32_lib/stm32f4xx_iwdg.o
+ .data          0x00000000        0x0 mk/stm32_lib/stm32f4xx_iwdg.o
+ .bss           0x00000000        0x0 mk/stm32_lib/stm32f4xx_iwdg.o
+ .comment       0x00000000       0x31 mk/stm32_lib/stm32f4xx_iwdg.o
+ .ARM.attributes
+                0x00000000       0x33 mk/stm32_lib/stm32f4xx_iwdg.o
+ .text          0x00000000      0x5a8 mk/stm32_lib/stm32f4xx_flash.o
+ .data          0x00000000        0x0 mk/stm32_lib/stm32f4xx_flash.o
+ .bss           0x00000000        0x0 mk/stm32_lib/stm32f4xx_flash.o
+ .comment       0x00000000       0x31 mk/stm32_lib/stm32f4xx_flash.o
+ .ARM.attributes
+                0x00000000       0x33 mk/stm32_lib/stm32f4xx_flash.o
+ .text          0x00000000      0x1a8 mk/stm32_lib/stm32f4xx_cryp_des.o
+ .data          0x00000000        0x0 mk/stm32_lib/stm32f4xx_cryp_des.o
+ .bss           0x00000000        0x0 mk/stm32_lib/stm32f4xx_cryp_des.o
+ .comment       0x00000000       0x31 mk/stm32_lib/stm32f4xx_cryp_des.o
+ .ARM.attributes
+                0x00000000       0x33 mk/stm32_lib/stm32f4xx_cryp_des.o
+ .text          0x00000000       0xa4 mk/stm32_lib/stm32f4xx_rng.o
+ .data          0x00000000        0x0 mk/stm32_lib/stm32f4xx_rng.o
+ .bss           0x00000000        0x0 mk/stm32_lib/stm32f4xx_rng.o
+ .comment       0x00000000       0x31 mk/stm32_lib/stm32f4xx_rng.o
+ .ARM.attributes
+                0x00000000       0x33 mk/stm32_lib/stm32f4xx_rng.o
+ .text          0x00000000      0x30c mk/stm32_lib/stm32f4xx_dma2d.o
+ .data          0x00000000        0x0 mk/stm32_lib/stm32f4xx_dma2d.o
+ .bss           0x00000000        0x0 mk/stm32_lib/stm32f4xx_dma2d.o
+ .comment       0x00000000       0x31 mk/stm32_lib/stm32f4xx_dma2d.o
+ .ARM.attributes
+                0x00000000       0x33 mk/stm32_lib/stm32f4xx_dma2d.o
+ .text          0x00000000      0x404 mk/stm32_lib/stm32f4xx_spi.o
+ .data          0x00000000        0x0 mk/stm32_lib/stm32f4xx_spi.o
+ .bss           0x00000000        0x0 mk/stm32_lib/stm32f4xx_spi.o
+ .comment       0x00000000       0x31 mk/stm32_lib/stm32f4xx_spi.o
+ .ARM.attributes
+                0x00000000       0x33 mk/stm32_lib/stm32f4xx_spi.o
+ .data          0x00000000        0x0 mk/stm32_lib/stm32f4xx_exti.o
+ .bss           0x00000000        0x0 mk/stm32_lib/stm32f4xx_exti.o
+ .text          0x00000000      0x4c8 mk/stm32_lib/stm32f4xx_fsmc.o
+ .data          0x00000000        0x0 mk/stm32_lib/stm32f4xx_fsmc.o
+ .bss           0x00000000        0x0 mk/stm32_lib/stm32f4xx_fsmc.o
+ .comment       0x00000000       0x31 mk/stm32_lib/stm32f4xx_fsmc.o
+ .ARM.attributes
+                0x00000000       0x33 mk/stm32_lib/stm32f4xx_fsmc.o
+ .text          0x00000000      0x1e4 mk/stm32_lib/stm32f4xx_cryp_tdes.o
+ .data          0x00000000        0x0 mk/stm32_lib/stm32f4xx_cryp_tdes.o
+ .bss           0x00000000        0x0 mk/stm32_lib/stm32f4xx_cryp_tdes.o
+ .comment       0x00000000       0x31 mk/stm32_lib/stm32f4xx_cryp_tdes.o
+ .ARM.attributes
+                0x00000000       0x33 mk/stm32_lib/stm32f4xx_cryp_tdes.o
+ .text          0x00000000       0x64 mk/stm32_lib/stm32f4xx_dbgmcu.o
+ .data          0x00000000        0x0 mk/stm32_lib/stm32f4xx_dbgmcu.o
+ .bss           0x00000000        0x0 mk/stm32_lib/stm32f4xx_dbgmcu.o
+ .comment       0x00000000       0x31 mk/stm32_lib/stm32f4xx_dbgmcu.o
+ .ARM.attributes
+                0x00000000       0x33 mk/stm32_lib/stm32f4xx_dbgmcu.o
+ .text          0x00000000      0x1dc mk/stm32_lib/stm32f4xx_hash_md5.o
+ .data          0x00000000        0x0 mk/stm32_lib/stm32f4xx_hash_md5.o
+ .bss           0x00000000        0x0 mk/stm32_lib/stm32f4xx_hash_md5.o
+ .comment       0x00000000       0x31 mk/stm32_lib/stm32f4xx_hash_md5.o
+ .ARM.attributes
+                0x00000000       0x33 mk/stm32_lib/stm32f4xx_hash_md5.o
+ .text          0x00000000      0xc28 mk/stm32_lib/stm32f4xx_rtc.o
+ .data          0x00000000        0x0 mk/stm32_lib/stm32f4xx_rtc.o
+ .bss           0x00000000        0x0 mk/stm32_lib/stm32f4xx_rtc.o
+ .comment       0x00000000       0x31 mk/stm32_lib/stm32f4xx_rtc.o
+ .ARM.attributes
+                0x00000000       0x33 mk/stm32_lib/stm32f4xx_rtc.o
+ .text          0x00000000      0x178 mk/stm32_lib/stm32f4xx_pwr.o
+ .data          0x00000000        0x0 mk/stm32_lib/stm32f4xx_pwr.o
+ .bss           0x00000000        0x0 mk/stm32_lib/stm32f4xx_pwr.o
+ .comment       0x00000000       0x31 mk/stm32_lib/stm32f4xx_pwr.o
+ .ARM.attributes
+                0x00000000       0x33 mk/stm32_lib/stm32f4xx_pwr.o
+ .text          0x00000000      0x46c mk/stm32_lib/stm32f4xx_i2c.o
+ .data          0x00000000        0x0 mk/stm32_lib/stm32f4xx_i2c.o
+ .bss           0x00000000        0x0 mk/stm32_lib/stm32f4xx_i2c.o
+ .comment       0x00000000       0x31 mk/stm32_lib/stm32f4xx_i2c.o
+ .ARM.attributes
+                0x00000000       0x33 mk/stm32_lib/stm32f4xx_i2c.o
+ .text          0x00000000      0xdb4 mk/stm32_lib/stm32f4x7_eth.o
+ .data          0x00000000        0x0 mk/stm32_lib/stm32f4x7_eth.o
+ .bss           0x00000000        0x0 mk/stm32_lib/stm32f4x7_eth.o
+ .comment       0x00000000       0x31 mk/stm32_lib/stm32f4x7_eth.o
+ .ARM.attributes
+                0x00000000       0x33 mk/stm32_lib/stm32f4x7_eth.o
+ COMMON         0x00000000     0x3ce4 mk/stm32_lib/stm32f4x7_eth.o
+ .text          0x00000000      0x224 mk/stm32_lib/stm32f4xx_sdio.o
+ .data          0x00000000        0x0 mk/stm32_lib/stm32f4xx_sdio.o
+ .bss           0x00000000        0x0 mk/stm32_lib/stm32f4xx_sdio.o
+ .comment       0x00000000       0x31 mk/stm32_lib/stm32f4xx_sdio.o
+ .ARM.attributes
+                0x00000000       0x33 mk/stm32_lib/stm32f4xx_sdio.o
+ .bss           0x00000000        0x0 mk/stm32_lib/stm32f4xx_rcc.o
+ .text          0x00000000      0x4c8 mk/stm32_lib/stm32f4xx_ltdc.o
+ .data          0x00000000        0x0 mk/stm32_lib/stm32f4xx_ltdc.o
+ .bss           0x00000000        0x0 mk/stm32_lib/stm32f4xx_ltdc.o
+ .comment       0x00000000       0x31 mk/stm32_lib/stm32f4xx_ltdc.o
+ .ARM.attributes
+                0x00000000       0x33 mk/stm32_lib/stm32f4xx_ltdc.o
+ .data          0x00000000        0x0 mk/stm32_lib/stm32f4xx_syscfg.o
+ .bss           0x00000000        0x0 mk/stm32_lib/stm32f4xx_syscfg.o
+ .text          0x00000000       0x58 mk/stm32_lib/stm32f4xx_crc.o
+ .data          0x00000000        0x0 mk/stm32_lib/stm32f4xx_crc.o
+ .bss           0x00000000        0x0 mk/stm32_lib/stm32f4xx_crc.o
+ .comment       0x00000000       0x31 mk/stm32_lib/stm32f4xx_crc.o
+ .ARM.attributes
+                0x00000000       0x33 mk/stm32_lib/stm32f4xx_crc.o
+ .text          0x00000000      0x480 mk/stm32_lib/stm32f4xx_usart.o
+ .data          0x00000000        0x0 mk/stm32_lib/stm32f4xx_usart.o
+ .bss           0x00000000        0x0 mk/stm32_lib/stm32f4xx_usart.o
+ .comment       0x00000000       0x31 mk/stm32_lib/stm32f4xx_usart.o
+ .ARM.attributes
+                0x00000000       0x33 mk/stm32_lib/stm32f4xx_usart.o
+ .text          0x00000000      0x1a4 mk/stm32_lib/stm32f4xx_dcmi.o
+ .data          0x00000000        0x0 mk/stm32_lib/stm32f4xx_dcmi.o
+ .bss           0x00000000        0x0 mk/stm32_lib/stm32f4xx_dcmi.o
+ .comment       0x00000000       0x31 mk/stm32_lib/stm32f4xx_dcmi.o
+ .ARM.attributes
+                0x00000000       0x33 mk/stm32_lib/stm32f4xx_dcmi.o
+ .text          0x00000000      0x348 mk/stm32_lib/stm32f4xx_cryp.o
+ .data          0x00000000        0x0 mk/stm32_lib/stm32f4xx_cryp.o
+ .bss           0x00000000        0x0 mk/stm32_lib/stm32f4xx_cryp.o
+ .comment       0x00000000       0x31 mk/stm32_lib/stm32f4xx_cryp.o
+ .ARM.attributes
+                0x00000000       0x33 mk/stm32_lib/stm32f4xx_cryp.o
+ .text          0x00000000      0xdac mk/stm32_lib/stm32f4xx_tim.o
+ .data          0x00000000        0x0 mk/stm32_lib/stm32f4xx_tim.o
+ .bss           0x00000000        0x0 mk/stm32_lib/stm32f4xx_tim.o
+ .comment       0x00000000       0x31 mk/stm32_lib/stm32f4xx_tim.o
+ .ARM.attributes
+                0x00000000       0x33 mk/stm32_lib/stm32f4xx_tim.o
+ .text          0x00000000      0x3d8 mk/stm32_lib/stm32f4xx_adc.o
+ .data          0x00000000        0x0 mk/stm32_lib/stm32f4xx_adc.o
+ .bss           0x00000000        0x0 mk/stm32_lib/stm32f4xx_adc.o
+ .comment       0x00000000       0x31 mk/stm32_lib/stm32f4xx_adc.o
+ .ARM.attributes
+                0x00000000       0x33 mk/stm32_lib/stm32f4xx_adc.o
+ .data          0x00000000        0x0 mk/stm32_lib/misc.o
+ .bss           0x00000000        0x0 mk/stm32_lib/misc.o
+ .bss           0x00000000        0x0 mk/cmsis/system_stm32f4xx.o
+ .bss           0x00000000        0x0 mk/usb_lib/usbd_core.o
+ .data          0x00000000        0x0 mk/usb_lib/usbd_req.o
+ .data          0x00000000        0x0 mk/usb_lib/usb_dcd_int.o
+ .bss           0x00000000        0x0 mk/usb_lib/usb_dcd_int.o
+ .data          0x00000000        0x0 mk/usb_lib/usb_core.o
+ .bss           0x00000000        0x0 mk/usb_lib/usb_core.o
+ .data          0x00000000        0x0 mk/usb_lib/usbd_ioreq.o
+ .bss           0x00000000        0x0 mk/usb_lib/usbd_ioreq.o
+ COMMON         0x00000000       0x43 mk/usb_lib/usbd_cdc_core.o
+ .data          0x00000000        0x0 mk/usb_lib/usb_dcd.o
+ .bss           0x00000000        0x0 mk/usb_lib/usb_dcd.o
+ .text          0x00000000        0x0 mk/lwip_v1.3.2/src/api/netbuf.o
+ .data          0x00000000        0x0 mk/lwip_v1.3.2/src/api/netbuf.o
+ .bss           0x00000000        0x0 mk/lwip_v1.3.2/src/api/netbuf.o
+ .comment       0x00000000       0x31 mk/lwip_v1.3.2/src/api/netbuf.o
+ .ARM.attributes
+                0x00000000       0x33 mk/lwip_v1.3.2/src/api/netbuf.o
+ .text          0x00000000        0x0 mk/lwip_v1.3.2/src/api/api_lib.o
+ .data          0x00000000        0x0 mk/lwip_v1.3.2/src/api/api_lib.o
+ .bss           0x00000000        0x0 mk/lwip_v1.3.2/src/api/api_lib.o
+ .comment       0x00000000       0x31 mk/lwip_v1.3.2/src/api/api_lib.o
+ .ARM.attributes
+                0x00000000       0x33 mk/lwip_v1.3.2/src/api/api_lib.o
+ .text          0x00000000        0x0 mk/lwip_v1.3.2/src/api/netifapi.o
+ .data          0x00000000        0x0 mk/lwip_v1.3.2/src/api/netifapi.o
+ .bss           0x00000000        0x0 mk/lwip_v1.3.2/src/api/netifapi.o
+ .comment       0x00000000       0x31 mk/lwip_v1.3.2/src/api/netifapi.o
+ .ARM.attributes
+                0x00000000       0x33 mk/lwip_v1.3.2/src/api/netifapi.o
+ .text          0x00000000        0x0 mk/lwip_v1.3.2/src/api/tcpip.o
+ .data          0x00000000        0x0 mk/lwip_v1.3.2/src/api/tcpip.o
+ .bss           0x00000000        0x0 mk/lwip_v1.3.2/src/api/tcpip.o
+ .comment       0x00000000       0x31 mk/lwip_v1.3.2/src/api/tcpip.o
+ .ARM.attributes
+                0x00000000       0x33 mk/lwip_v1.3.2/src/api/tcpip.o
+ .text          0x00000000        0x0 mk/lwip_v1.3.2/src/api/netdb.o
+ .data          0x00000000        0x0 mk/lwip_v1.3.2/src/api/netdb.o
+ .bss           0x00000000        0x0 mk/lwip_v1.3.2/src/api/netdb.o
+ .comment       0x00000000       0x31 mk/lwip_v1.3.2/src/api/netdb.o
+ .ARM.attributes
+                0x00000000       0x33 mk/lwip_v1.3.2/src/api/netdb.o
+ .text          0x00000000        0x0 mk/lwip_v1.3.2/src/api/err.o
+ .data          0x00000000        0x0 mk/lwip_v1.3.2/src/api/err.o
+ .bss           0x00000000        0x0 mk/lwip_v1.3.2/src/api/err.o
+ .comment       0x00000000       0x31 mk/lwip_v1.3.2/src/api/err.o
+ .ARM.attributes
+                0x00000000       0x33 mk/lwip_v1.3.2/src/api/err.o
+ .text          0x00000000        0x0 mk/lwip_v1.3.2/src/api/api_msg.o
+ .data          0x00000000        0x0 mk/lwip_v1.3.2/src/api/api_msg.o
+ .bss           0x00000000        0x0 mk/lwip_v1.3.2/src/api/api_msg.o
+ .comment       0x00000000       0x31 mk/lwip_v1.3.2/src/api/api_msg.o
+ .ARM.attributes
+                0x00000000       0x33 mk/lwip_v1.3.2/src/api/api_msg.o
+ .text          0x00000000        0x0 mk/lwip_v1.3.2/src/api/sockets.o
+ .data          0x00000000        0x0 mk/lwip_v1.3.2/src/api/sockets.o
+ .bss           0x00000000        0x0 mk/lwip_v1.3.2/src/api/sockets.o
+ .comment       0x00000000       0x31 mk/lwip_v1.3.2/src/api/sockets.o
+ .ARM.attributes
+                0x00000000       0x33 mk/lwip_v1.3.2/src/api/sockets.o
+ .text          0x00000000        0x0 mk/lwip_v1.3.2/src/core/stats.o
+ .data          0x00000000        0x0 mk/lwip_v1.3.2/src/core/stats.o
+ .bss           0x00000000        0x0 mk/lwip_v1.3.2/src/core/stats.o
+ .comment       0x00000000       0x31 mk/lwip_v1.3.2/src/core/stats.o
+ .ARM.attributes
+                0x00000000       0x33 mk/lwip_v1.3.2/src/core/stats.o
+ .text          0x00000000      0x290 mk/lwip_v1.3.2/src/core/mem.o
+ .data          0x00000000        0x0 mk/lwip_v1.3.2/src/core/mem.o
+ .bss           0x00000000     0x2824 mk/lwip_v1.3.2/src/core/mem.o
+ .comment       0x00000000       0x31 mk/lwip_v1.3.2/src/core/mem.o
+ .ARM.attributes
+                0x00000000       0x33 mk/lwip_v1.3.2/src/core/mem.o
+ .text          0x00000000       0x14 mk/lwip_v1.3.2/src/core/init.o
+ .data          0x00000000        0x0 mk/lwip_v1.3.2/src/core/init.o
+ .bss           0x00000000        0x0 mk/lwip_v1.3.2/src/core/init.o
+ .comment       0x00000000       0x31 mk/lwip_v1.3.2/src/core/init.o
+ .ARM.attributes
+                0x00000000       0x33 mk/lwip_v1.3.2/src/core/init.o
+ .text          0x00000000       0xa0 mk/lwip_v1.3.2/src/core/memp.o
+ .data          0x00000000        0x0 mk/lwip_v1.3.2/src/core/memp.o
+ .bss           0x00000000     0x4d90 mk/lwip_v1.3.2/src/core/memp.o
+ .rodata        0x00000000       0x28 mk/lwip_v1.3.2/src/core/memp.o
+ .comment       0x00000000       0x31 mk/lwip_v1.3.2/src/core/memp.o
+ .ARM.attributes
+                0x00000000       0x33 mk/lwip_v1.3.2/src/core/memp.o
+ .text          0x00000000      0xde4 mk/lwip_v1.3.2/src/core/tcp_in.o
+ .data          0x00000000        0x0 mk/lwip_v1.3.2/src/core/tcp_in.o
+ .bss           0x00000000       0x34 mk/lwip_v1.3.2/src/core/tcp_in.o
+ .comment       0x00000000       0x31 mk/lwip_v1.3.2/src/core/tcp_in.o
+ .ARM.attributes
+                0x00000000       0x33 mk/lwip_v1.3.2/src/core/tcp_in.o
+ COMMON         0x00000000        0x4 mk/lwip_v1.3.2/src/core/tcp_in.o
+ .text          0x00000000     0x1100 mk/lwip_v1.3.2/src/core/dhcp.o
+ .data          0x00000000        0x4 mk/lwip_v1.3.2/src/core/dhcp.o
+ .bss           0x00000000        0x0 mk/lwip_v1.3.2/src/core/dhcp.o
+ .comment       0x00000000       0x31 mk/lwip_v1.3.2/src/core/dhcp.o
+ .ARM.attributes
+                0x00000000       0x33 mk/lwip_v1.3.2/src/core/dhcp.o
+ .text          0x00000000        0x0 mk/lwip_v1.3.2/src/core/dns.o
+ .data          0x00000000        0x0 mk/lwip_v1.3.2/src/core/dns.o
+ .bss           0x00000000        0x0 mk/lwip_v1.3.2/src/core/dns.o
+ .comment       0x00000000       0x31 mk/lwip_v1.3.2/src/core/dns.o
+ .ARM.attributes
+                0x00000000       0x33 mk/lwip_v1.3.2/src/core/dns.o
+ .text          0x00000000      0x190 mk/lwip_v1.3.2/src/core/raw.o
+ .data          0x00000000        0x0 mk/lwip_v1.3.2/src/core/raw.o
+ .bss           0x00000000        0x4 mk/lwip_v1.3.2/src/core/raw.o
+ .comment       0x00000000       0x31 mk/lwip_v1.3.2/src/core/raw.o
+ .ARM.attributes
+                0x00000000       0x33 mk/lwip_v1.3.2/src/core/raw.o
+ .text          0x00000000      0xa88 mk/lwip_v1.3.2/src/core/tcp.o
+ .data          0x00000000       0x34 mk/lwip_v1.3.2/src/core/tcp.o
+ .bss           0x00000000        0x1 mk/lwip_v1.3.2/src/core/tcp.o
+ .rodata        0x00000000       0x18 mk/lwip_v1.3.2/src/core/tcp.o
+ .rodata.str1.4
+                0x00000000       0x78 mk/lwip_v1.3.2/src/core/tcp.o
+ .comment       0x00000000       0x31 mk/lwip_v1.3.2/src/core/tcp.o
+ .ARM.attributes
+                0x00000000       0x33 mk/lwip_v1.3.2/src/core/tcp.o
+ COMMON         0x00000000       0x18 mk/lwip_v1.3.2/src/core/tcp.o
+ .text          0x00000000      0x1a8 mk/lwip_v1.3.2/src/core/netif.o
+ .data          0x00000000        0x0 mk/lwip_v1.3.2/src/core/netif.o
+ .bss           0x00000000        0x1 mk/lwip_v1.3.2/src/core/netif.o
+ .comment       0x00000000       0x31 mk/lwip_v1.3.2/src/core/netif.o
+ .ARM.attributes
+                0x00000000       0x33 mk/lwip_v1.3.2/src/core/netif.o
+ COMMON         0x00000000        0x8 mk/lwip_v1.3.2/src/core/netif.o
+ .text          0x00000000        0x0 mk/lwip_v1.3.2/src/core/sys.o
+ .data          0x00000000        0x0 mk/lwip_v1.3.2/src/core/sys.o
+ .bss           0x00000000        0x0 mk/lwip_v1.3.2/src/core/sys.o
+ .comment       0x00000000       0x31 mk/lwip_v1.3.2/src/core/sys.o
+ .ARM.attributes
+                0x00000000       0x33 mk/lwip_v1.3.2/src/core/sys.o
+ .text          0x00000000      0x458 mk/lwip_v1.3.2/src/core/pbuf.o
+ .data          0x00000000        0x0 mk/lwip_v1.3.2/src/core/pbuf.o
+ .bss           0x00000000        0x0 mk/lwip_v1.3.2/src/core/pbuf.o
+ .comment       0x00000000       0x31 mk/lwip_v1.3.2/src/core/pbuf.o
+ .ARM.attributes
+                0x00000000       0x33 mk/lwip_v1.3.2/src/core/pbuf.o
+ .text          0x00000000      0x3cc mk/lwip_v1.3.2/src/core/udp.o
+ .data          0x00000000        0x0 mk/lwip_v1.3.2/src/core/udp.o
+ .bss           0x00000000        0x0 mk/lwip_v1.3.2/src/core/udp.o
+ .comment       0x00000000       0x31 mk/lwip_v1.3.2/src/core/udp.o
+ .ARM.attributes
+                0x00000000       0x33 mk/lwip_v1.3.2/src/core/udp.o
+ COMMON         0x00000000        0x4 mk/lwip_v1.3.2/src/core/udp.o
+ .text          0x00000000      0xa04 mk/lwip_v1.3.2/src/core/tcp_out.o
+ .data          0x00000000        0x0 mk/lwip_v1.3.2/src/core/tcp_out.o
+ .bss           0x00000000        0x0 mk/lwip_v1.3.2/src/core/tcp_out.o
+ .comment       0x00000000       0x31 mk/lwip_v1.3.2/src/core/tcp_out.o
+ .ARM.attributes
+                0x00000000       0x33 mk/lwip_v1.3.2/src/core/tcp_out.o
+ .text          0x00000000      0x5ec mk/lwip_v1.3.2/src/core/ipv4/ip_frag.o
+ .data          0x00000000        0x0 mk/lwip_v1.3.2/src/core/ipv4/ip_frag.o
+ .bss           0x00000000      0x5e8 mk/lwip_v1.3.2/src/core/ipv4/ip_frag.o
+ .comment       0x00000000       0x31 mk/lwip_v1.3.2/src/core/ipv4/ip_frag.o
+ .ARM.attributes
+                0x00000000       0x33 mk/lwip_v1.3.2/src/core/ipv4/ip_frag.o
+ .text          0x00000000      0x278 mk/lwip_v1.3.2/src/core/ipv4/inet.o
+ .data          0x00000000        0x0 mk/lwip_v1.3.2/src/core/ipv4/inet.o
+ .bss           0x00000000       0x10 mk/lwip_v1.3.2/src/core/ipv4/inet.o
+ .comment       0x00000000       0x31 mk/lwip_v1.3.2/src/core/ipv4/inet.o
+ .ARM.attributes
+                0x00000000       0x33 mk/lwip_v1.3.2/src/core/ipv4/inet.o
+ .text          0x00000000       0x34 mk/lwip_v1.3.2/src/core/ipv4/ip_addr.o
+ .data          0x00000000        0x0 mk/lwip_v1.3.2/src/core/ipv4/ip_addr.o
+ .bss           0x00000000        0x0 mk/lwip_v1.3.2/src/core/ipv4/ip_addr.o
+ .rodata        0x00000000        0x8 mk/lwip_v1.3.2/src/core/ipv4/ip_addr.o
+ .comment       0x00000000       0x31 mk/lwip_v1.3.2/src/core/ipv4/ip_addr.o
+ .ARM.attributes
+                0x00000000       0x33 mk/lwip_v1.3.2/src/core/ipv4/ip_addr.o
+ .text          0x00000000        0x0 mk/lwip_v1.3.2/src/core/ipv4/igmp.o
+ .data          0x00000000        0x0 mk/lwip_v1.3.2/src/core/ipv4/igmp.o
+ .bss           0x00000000        0x0 mk/lwip_v1.3.2/src/core/ipv4/igmp.o
+ .comment       0x00000000       0x31 mk/lwip_v1.3.2/src/core/ipv4/igmp.o
+ .ARM.attributes
+                0x00000000       0x33 mk/lwip_v1.3.2/src/core/ipv4/igmp.o
+ .text          0x00000000      0x2f4 mk/lwip_v1.3.2/src/core/ipv4/ip.o
+ .data          0x00000000        0x0 mk/lwip_v1.3.2/src/core/ipv4/ip.o
+ .bss           0x00000000        0x2 mk/lwip_v1.3.2/src/core/ipv4/ip.o
+ .comment       0x00000000       0x31 mk/lwip_v1.3.2/src/core/ipv4/ip.o
+ .ARM.attributes
+                0x00000000       0x33 mk/lwip_v1.3.2/src/core/ipv4/ip.o
+ COMMON         0x00000000        0x8 mk/lwip_v1.3.2/src/core/ipv4/ip.o
+ .text          0x00000000      0x37c mk/lwip_v1.3.2/src/core/ipv4/autoip.o
+ .data          0x00000000        0x0 mk/lwip_v1.3.2/src/core/ipv4/autoip.o
+ .bss           0x00000000        0x0 mk/lwip_v1.3.2/src/core/ipv4/autoip.o
+ .comment       0x00000000       0x31 mk/lwip_v1.3.2/src/core/ipv4/autoip.o
+ .ARM.attributes
+                0x00000000       0x33 mk/lwip_v1.3.2/src/core/ipv4/autoip.o
+ .text          0x00000000      0x148 mk/lwip_v1.3.2/src/core/ipv4/inet_chksum.o
+ .data          0x00000000        0x0 mk/lwip_v1.3.2/src/core/ipv4/inet_chksum.o
+ .bss           0x00000000        0x0 mk/lwip_v1.3.2/src/core/ipv4/inet_chksum.o
+ .comment       0x00000000       0x31 mk/lwip_v1.3.2/src/core/ipv4/inet_chksum.o
+ .ARM.attributes
+                0x00000000       0x33 mk/lwip_v1.3.2/src/core/ipv4/inet_chksum.o
+ .text          0x00000000      0x1c4 mk/lwip_v1.3.2/src/core/ipv4/icmp.o
+ .data          0x00000000        0x0 mk/lwip_v1.3.2/src/core/ipv4/icmp.o
+ .bss           0x00000000        0x0 mk/lwip_v1.3.2/src/core/ipv4/icmp.o
+ .comment       0x00000000       0x31 mk/lwip_v1.3.2/src/core/ipv4/icmp.o
+ .ARM.attributes
+                0x00000000       0x33 mk/lwip_v1.3.2/src/core/ipv4/icmp.o
+ .text          0x00000000        0x0 mk/lwip_v1.3.2/src/netif/slipif.o
+ .data          0x00000000        0x0 mk/lwip_v1.3.2/src/netif/slipif.o
+ .bss           0x00000000        0x0 mk/lwip_v1.3.2/src/netif/slipif.o
+ .comment       0x00000000       0x31 mk/lwip_v1.3.2/src/netif/slipif.o
+ .ARM.attributes
+                0x00000000       0x33 mk/lwip_v1.3.2/src/netif/slipif.o
+ .text          0x00000000      0x7a4 mk/lwip_v1.3.2/src/netif/etharp.o
+ .data          0x00000000        0x0 mk/lwip_v1.3.2/src/netif/etharp.o
+ .bss           0x00000000       0xcc mk/lwip_v1.3.2/src/netif/etharp.o
+ .rodata        0x00000000       0x10 mk/lwip_v1.3.2/src/netif/etharp.o
+ .comment       0x00000000       0x31 mk/lwip_v1.3.2/src/netif/etharp.o
+ .ARM.attributes
+                0x00000000       0x33 mk/lwip_v1.3.2/src/netif/etharp.o
+ .text          0x00000000        0x0 mk/lwip_v1.3.2/src/netif/loopif.o
+ .data          0x00000000        0x0 mk/lwip_v1.3.2/src/netif/loopif.o
+ .bss           0x00000000        0x0 mk/lwip_v1.3.2/src/netif/loopif.o
+ .comment       0x00000000       0x31 mk/lwip_v1.3.2/src/netif/loopif.o
+ .ARM.attributes
+                0x00000000       0x33 mk/lwip_v1.3.2/src/netif/loopif.o
+ .text          0x00000000       0x14 mk/startup_stm32f4xx.o
+ .data          0x00000000        0x0 mk/startup_stm32f4xx.o
+ .bss           0x00000000        0x0 mk/startup_stm32f4xx.o
+ .text          0x00000000       0x64 /usr/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memcmp.o)
+ .data          0x00000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memcmp.o)
+ .bss           0x00000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memcmp.o)
+ .ARM.attributes
+                0x00000000       0x29 /usr/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memcmp.o)
+ .debug_frame   0x00000000       0x2c /usr/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memcmp.o)
+ .text          0x00000000      0x174 /usr/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memcpy.o)
+ .data          0x00000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memcpy.o)
+ .bss           0x00000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memcpy.o)
+ .ARM.attributes
+                0x00000000       0x29 /usr/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memcpy.o)
+ .debug_frame   0x00000000       0x34 /usr/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memcpy.o)
+ .text          0x00000000       0xcc /usr/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memset.o)
+ .data          0x00000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memset.o)
+ .bss           0x00000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memset.o)
+ .ARM.attributes
+                0x00000000       0x29 /usr/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memset.o)
+ .debug_frame   0x00000000       0x2c /usr/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memset.o)
+ .text          0x00000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtend.o
+ .data          0x00000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtend.o
+ .bss           0x00000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtend.o
+ .eh_frame      0x00000000        0x4 /usr/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtend.o
+ .jcr           0x00000000        0x4 /usr/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtend.o
+ .tm_clone_table
+                0x00000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtend.o
+ .ARM.attributes
+                0x00000000       0x29 /usr/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtend.o
+ .text          0x00000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtn.o
+ .data          0x00000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtn.o
+ .bss           0x00000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtn.o
+ .init          0x00000000        0x8 /usr/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtn.o
+ .fini          0x00000000        0x8 /usr/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtn.o
+ .ARM.attributes
+                0x00000000       0x19 /usr/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+RAM              0x20000000         0x00020000         xrw
+CCMRAM           0x10000000         0x00010000         xrw
+FLASH            0x08000000         0x00100000         xr
+FLASHB1          0x00000000         0x00000000         xr
+EXTMEMB0         0x00000000         0x00000000         xr
+EXTMEMB1         0x00000000         0x00000000         xr
+EXTMEMB2         0x00000000         0x00000000         xr
+EXTMEMB3         0x00000000         0x00000000         xr
+MEMORY_ARRAY     0x20002000         0x00000020         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD /usr/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crti.o
+LOAD /usr/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
+LOAD mk/interrupts.o
+LOAD mk/hw_config.o
+LOAD mk/usbd_usr.o
+LOAD mk/main.o
+LOAD mk/usbd_desc.o
+LOAD mk/usbd_cdc_vcp.o
+LOAD mk/stm32_lib/stm32f4xx_gpio.o
+LOAD mk/stm32_lib/stm32f4xx_wwdg.o
+LOAD mk/stm32_lib/stm32f4xx_sai.o
+LOAD mk/stm32_lib/stm32f4xx_cryp_aes.o
+LOAD mk/stm32_lib/stm32f4xx_dma.o
+LOAD mk/stm32_lib/stm32f4xx_dac.o
+LOAD mk/stm32_lib/stm32f4xx_can.o
+LOAD mk/stm32_lib/stm32f4xx_hash_sha1.o
+LOAD mk/stm32_lib/stm32f4xx_hash.o
+LOAD mk/stm32_lib/stm32f4xx_iwdg.o
+LOAD mk/stm32_lib/stm32f4xx_flash.o
+LOAD mk/stm32_lib/stm32f4xx_cryp_des.o
+LOAD mk/stm32_lib/stm32f4xx_rng.o
+LOAD mk/stm32_lib/stm32f4xx_dma2d.o
+LOAD mk/stm32_lib/stm32f4xx_spi.o
+LOAD mk/stm32_lib/stm32f4xx_exti.o
+LOAD mk/stm32_lib/stm32f4xx_fsmc.o
+LOAD mk/stm32_lib/stm32f4xx_cryp_tdes.o
+LOAD mk/stm32_lib/stm32f4xx_dbgmcu.o
+LOAD mk/stm32_lib/stm32f4xx_hash_md5.o
+LOAD mk/stm32_lib/stm32f4xx_rtc.o
+LOAD mk/stm32_lib/stm32f4xx_pwr.o
+LOAD mk/stm32_lib/stm32f4xx_i2c.o
+LOAD mk/stm32_lib/stm32f4x7_eth.o
+LOAD mk/stm32_lib/stm32f4xx_sdio.o
+LOAD mk/stm32_lib/stm32f4xx_rcc.o
+LOAD mk/stm32_lib/stm32f4xx_ltdc.o
+LOAD mk/stm32_lib/stm32f4xx_syscfg.o
+LOAD mk/stm32_lib/stm32f4xx_crc.o
+LOAD mk/stm32_lib/stm32f4xx_usart.o
+LOAD mk/stm32_lib/stm32f4xx_dcmi.o
+LOAD mk/stm32_lib/stm32f4xx_cryp.o
+LOAD mk/stm32_lib/stm32f4xx_tim.o
+LOAD mk/stm32_lib/stm32f4xx_adc.o
+LOAD mk/stm32_lib/misc.o
+LOAD mk/cmsis/system_stm32f4xx.o
+LOAD mk/usb_lib/usbd_core.o
+LOAD mk/usb_lib/usbd_req.o
+LOAD mk/usb_lib/usb_dcd_int.o
+LOAD mk/usb_lib/usb_core.o
+LOAD mk/usb_lib/usbd_ioreq.o
+LOAD mk/usb_lib/usbd_cdc_core.o
+LOAD mk/usb_lib/usb_dcd.o
+LOAD mk/lwip_v1.3.2/src/api/netbuf.o
+LOAD mk/lwip_v1.3.2/src/api/api_lib.o
+LOAD mk/lwip_v1.3.2/src/api/netifapi.o
+LOAD mk/lwip_v1.3.2/src/api/tcpip.o
+LOAD mk/lwip_v1.3.2/src/api/netdb.o
+LOAD mk/lwip_v1.3.2/src/api/err.o
+LOAD mk/lwip_v1.3.2/src/api/api_msg.o
+LOAD mk/lwip_v1.3.2/src/api/sockets.o
+LOAD mk/lwip_v1.3.2/src/core/stats.o
+LOAD mk/lwip_v1.3.2/src/core/mem.o
+LOAD mk/lwip_v1.3.2/src/core/init.o
+LOAD mk/lwip_v1.3.2/src/core/memp.o
+LOAD mk/lwip_v1.3.2/src/core/tcp_in.o
+LOAD mk/lwip_v1.3.2/src/core/dhcp.o
+LOAD mk/lwip_v1.3.2/src/core/dns.o
+LOAD mk/lwip_v1.3.2/src/core/raw.o
+LOAD mk/lwip_v1.3.2/src/core/tcp.o
+LOAD mk/lwip_v1.3.2/src/core/netif.o
+LOAD mk/lwip_v1.3.2/src/core/sys.o
+LOAD mk/lwip_v1.3.2/src/core/pbuf.o
+LOAD mk/lwip_v1.3.2/src/core/udp.o
+LOAD mk/lwip_v1.3.2/src/core/tcp_out.o
+LOAD mk/lwip_v1.3.2/src/core/ipv4/ip_frag.o
+LOAD mk/lwip_v1.3.2/src/core/ipv4/inet.o
+LOAD mk/lwip_v1.3.2/src/core/ipv4/ip_addr.o
+LOAD mk/lwip_v1.3.2/src/core/ipv4/igmp.o
+LOAD mk/lwip_v1.3.2/src/core/ipv4/ip.o
+LOAD mk/lwip_v1.3.2/src/core/ipv4/autoip.o
+LOAD mk/lwip_v1.3.2/src/core/ipv4/inet_chksum.o
+LOAD mk/lwip_v1.3.2/src/core/ipv4/icmp.o
+LOAD mk/lwip_v1.3.2/src/netif/slipif.o
+LOAD mk/lwip_v1.3.2/src/netif/etharp.o
+LOAD mk/lwip_v1.3.2/src/netif/loopif.o
+LOAD mk/startup_stm32f4xx.o
+START GROUP
+END GROUP
+                0x00000400                __Stack_Size = 0x400
+                0x00000400                PROVIDE (_Stack_Size, __Stack_Size)
+                0x2001fc00                __Stack_Init = (_estack - __Stack_Size)
+                0x2001fc00                PROVIDE (_Stack_Init, __Stack_Init)
+                0x00000100                _Minimum_Stack_Size = 0x100
+                0x20020000                _estack = 0x20020000
+
+.isr_vector     0x08000000      0x188
+                0x08000000                . = ALIGN (0x4)
+ *(.isr_vector)
+ .isr_vector    0x08000000      0x188 mk/startup_stm32f4xx.o
+                0x08000000                g_pfnVectors
+                0x08000188                . = ALIGN (0x4)
+
+.flashtext      0x08000188        0x0
+                0x08000188                . = ALIGN (0x4)
+ *(.flashtext)
+                0x08000188                . = ALIGN (0x4)
+
+.text           0x08000188     0x2ec8
+                0x08000188                . = ALIGN (0x4)
+ *(.text)
+ .text          0x08000188       0xe4 mk/interrupts.o
+                0x08000188                NMI_Handler
+                0x0800018c                HardFault_Handler
+                0x08000190                MemManage_Handler
+                0x08000194                BusFault_Handler
+                0x08000198                UsageFault_Handler
+                0x0800019c                SVC_Handler
+                0x080001a0                DebugMon_Handler
+                0x080001a4                PendSV_Handler
+                0x080001a8                Delay
+                0x080001bc                SysTick_Handler
+                0x080001d0                EXTI0_IRQHandler
+                0x080001f4                OTG_FS_WKUP_IRQHandler
+                0x08000224                OTG_FS_IRQHandler
+                0x08000230                OTG_HS_WKUP_IRQHandler
+                0x08000260                OTG_HS_IRQHandler
+ .text          0x0800026c      0x2b0 mk/hw_config.o
+                0x0800026c                Dummy
+                0x08000270                GPIO_pin_config_common
+                0x0800029c                Ports_Config
+                0x08000314                USB_OTG_BSP_Init
+                0x08000494                USB_OTG_BSP_EnableInterrupt
+                0x080004d0                USB_OTG_BSP_uDelay
+                0x080004f4                USB_OTG_BSP_mDelay
+ .text          0x0800051c       0x1c mk/usbd_usr.o
+                0x0800051c                USBD_USR_Init
+                0x08000520                USBD_USR_DeviceReset
+                0x08000524                USBD_USR_DeviceConfigured
+                0x08000528                USBD_USR_DeviceSuspended
+                0x0800052c                USBD_USR_DeviceResumed
+                0x08000530                USBD_USR_DeviceConnected
+                0x08000534                USBD_USR_DeviceDisconnected
+ .text          0x08000538       0x78 mk/main.o
+                0x08000538                Set_System
+ .text          0x080005b0       0xc4 mk/usbd_desc.o
+                0x080005b0                USBD_USR_DeviceDescriptor
+                0x080005bc                USBD_USR_LangIDStrDescriptor
+                0x080005c8                USBD_USR_ManufacturerStrDescriptor
+                0x080005e4                USBD_USR_InterfaceStrDescriptor
+                0x08000600                USBD_USR_ConfigStrDescriptor
+                0x0800061c                USBD_USR_SerialStrDescriptor
+                0x08000648                USBD_USR_ProductStrDescriptor
+ .text          0x08000674      0x110 mk/usbd_cdc_vcp.o
+ .text          0x08000784      0x2c4 mk/stm32_lib/stm32f4xx_gpio.o
+                0x08000784                GPIO_DeInit
+                0x080008e0                GPIO_Init
+                0x08000998                GPIO_StructInit
+                0x080009ac                GPIO_PinLockConfig
+                0x080009d0                GPIO_ReadInputDataBit
+                0x080009dc                GPIO_ReadInputData
+                0x080009e4                GPIO_ReadOutputDataBit
+                0x080009f0                GPIO_ReadOutputData
+                0x080009f8                GPIO_SetBits
+                0x080009fc                GPIO_ResetBits
+                0x08000a00                GPIO_WriteBit
+                0x08000a0c                GPIO_Write
+                0x08000a10                GPIO_ToggleBits
+                0x08000a18                GPIO_PinAFConfig
+ .text          0x08000a48       0xf8 mk/stm32_lib/stm32f4xx_exti.o
+                0x08000a48                EXTI_DeInit
+                0x08000a64                EXTI_Init
+                0x08000ae0                EXTI_StructInit
+                0x08000af0                EXTI_GenerateSWInterrupt
+                0x08000b00                EXTI_GetFlagStatus
+                0x08000b14                EXTI_ClearFlag
+                0x08000b20                EXTI_GetITStatus
+                0x08000b34                EXTI_ClearITPendingBit
+ .text          0x08000b40      0x528 mk/stm32_lib/stm32f4xx_rcc.o
+                0x08000b40                RCC_DeInit
+                0x08000b88                RCC_HSEConfig
+                0x08000b98                RCC_WaitForHSEStartUp
+                0x08000bd0                RCC_AdjustHSICalibrationValue
+                0x08000be4                RCC_HSICmd
+                0x08000bf0                RCC_LSEConfig
+                0x08000c10                RCC_LSICmd
+                0x08000c1c                RCC_PLLConfig
+                0x08000c40                RCC_PLLCmd
+                0x08000c4c                RCC_PLLI2SConfig
+                0x08000c60                RCC_PLLI2SCmd
+                0x08000c6c                RCC_PLLSAIConfig
+                0x08000c84                RCC_PLLSAICmd
+                0x08000c90                RCC_ClockSecuritySystemCmd
+                0x08000c9c                RCC_MCO1Config
+                0x08000cb0                RCC_MCO2Config
+                0x08000cc4                RCC_SYSCLKConfig
+                0x08000cd8                RCC_GetSYSCLKSource
+                0x08000ce8                RCC_HCLKConfig
+                0x08000cfc                RCC_PCLK1Config
+                0x08000d10                RCC_PCLK2Config
+                0x08000d24                RCC_GetClocksFreq
+                0x08000db4                RCC_RTCCLKConfig
+                0x08000de4                RCC_RTCCLKCmd
+                0x08000df0                RCC_BackupResetCmd
+                0x08000dfc                RCC_I2SCLKConfig
+                0x08000e08                RCC_SAIPLLI2SClkDivConfig
+                0x08000e20                RCC_SAIPLLSAIClkDivConfig
+                0x08000e3c                RCC_SAIBlockACLKConfig
+                0x08000e54                RCC_SAIBlockBCLKConfig
+                0x08000e6c                RCC_LTDCCLKDivConfig
+                0x08000e84                RCC_TIMCLKPresConfig
+                0x08000e90                RCC_AHB1PeriphClockCmd
+                0x08000ea8                RCC_AHB2PeriphClockCmd
+                0x08000ec0                RCC_AHB3PeriphClockCmd
+                0x08000ed8                RCC_APB1PeriphClockCmd
+                0x08000ef0                RCC_APB2PeriphClockCmd
+                0x08000f08                RCC_AHB1PeriphResetCmd
+                0x08000f20                RCC_AHB2PeriphResetCmd
+                0x08000f38                RCC_AHB3PeriphResetCmd
+                0x08000f50                RCC_APB1PeriphResetCmd
+                0x08000f68                RCC_APB2PeriphResetCmd
+                0x08000f80                RCC_AHB1PeriphClockLPModeCmd
+                0x08000f98                RCC_AHB2PeriphClockLPModeCmd
+                0x08000fb0                RCC_AHB3PeriphClockLPModeCmd
+                0x08000fc8                RCC_APB1PeriphClockLPModeCmd
+                0x08000fe0                RCC_APB2PeriphClockLPModeCmd
+                0x08000ff8                RCC_ITConfig
+                0x08001010                RCC_GetFlagStatus
+                0x08001038                RCC_ClearFlag
+                0x08001048                RCC_GetITStatus
+                0x0800105c                RCC_ClearITPendingBit
+ .text          0x08001068       0x94 mk/stm32_lib/stm32f4xx_syscfg.o
+                0x08001068                SYSCFG_DeInit
+                0x08001084                SYSCFG_MemoryRemapConfig
+                0x08001090                SYSCFG_MemorySwappingBank
+                0x0800109c                SYSCFG_EXTILineConfig
+                0x080010d4                SYSCFG_ETH_MediaInterfaceConfig
+                0x080010e0                SYSCFG_CompensationCellCmd
+                0x080010ec                SYSCFG_GetCompensationCellStatus
+ .text          0x080010fc       0xcc mk/stm32_lib/misc.o
+                0x080010fc                NVIC_PriorityGroupConfig
+                0x08001110                NVIC_Init
+                0x08001184                NVIC_SetVectorTable
+                0x08001198                NVIC_SystemLPConfig
+                0x080011b0                SysTick_CLKSourceConfig
+ .text          0x080011c8      0x164 mk/cmsis/system_stm32f4xx.o
+                0x080011c8                SystemInit
+                0x080012c0                SystemCoreClockUpdate
+ .text          0x0800132c      0x2ac mk/usb_lib/usbd_core.o
+                0x08001574                USBD_Init
+                0x080015ac                USBD_DeInit
+                0x080015b0                USBD_SetCfg
+                0x080015c8                USBD_ClrCfg
+ .text          0x080015d8      0x498 mk/usb_lib/usbd_req.o
+                0x080015d8                USBD_ParseSetupRequest
+                0x0800161c                USBD_CtlError
+                0x08001638                USBD_StdEPReq
+                0x08001710                USBD_StdItfReq
+                0x08001744                USBD_StdDevReq
+                0x08001a24                USBD_GetString
+ .text          0x08001a70      0x4ac mk/usb_lib/usb_dcd_int.o
+                0x08001a70                USBD_OTG_ISR_Handler
+ .text          0x08001f1c      0xa14 mk/usb_lib/usb_core.o
+                0x08001f80                USB_OTG_WritePacket
+                0x08001fac                USB_OTG_ReadPacket
+                0x08001fd4                USB_OTG_SelectCore
+                0x080020f0                USB_OTG_CoreInit
+                0x0800217c                USB_OTG_EnableGlobalInt
+                0x0800218c                USB_OTG_DisableGlobalInt
+                0x0800219c                USB_OTG_FlushTxFifo
+                0x080021e0                USB_OTG_FlushRxFifo
+                0x0800221c                USB_OTG_SetCurrentMode
+                0x08002248                USB_OTG_GetMode
+                0x08002254                USB_OTG_IsDeviceMode
+                0x08002264                USB_OTG_IsHostMode
+                0x08002270                USB_OTG_ReadCoreItr
+                0x0800227c                USB_OTG_ReadOtgItr
+                0x08002284                USB_OTG_InitDevSpeed
+                0x08002290                USB_OTG_EnableDevInt
+                0x080022d8                USB_OTG_CoreInitDev
+                0x080023d4                USB_OTG_GetDeviceSpeed
+                0x080023f0                USB_OTG_EP0Activate
+                0x0800241c                USB_OTG_EPActivate
+                0x0800247c                USB_OTG_EPDeactivate
+                0x080024c4                USB_OTG_EPStartXfer
+                0x0800260c                USB_OTG_EP0StartXfer
+                0x08002714                USB_OTG_EPSetStall
+                0x0800273c                USB_OTG_EPClearStall
+                0x08002764                USB_OTG_ReadDevAllOutEp_itr
+                0x08002770                USB_OTG_ReadDevOutEP_itr
+                0x08002780                USB_OTG_ReadDevAllInEPItr
+                0x0800278c                USB_OTG_EP0_OutStart
+                0x080027c8                USB_OTG_ActiveRemoteWakeup
+                0x0800280c                USB_OTG_UngateClock
+                0x08002830                USB_OTG_StopDevice
+                0x08002878                USB_OTG_GetEPStatus
+                0x080028bc                USB_OTG_SetEPStatus
+ .text          0x08002930       0xb8 mk/usb_lib/usbd_ioreq.o
+                0x08002930                USBD_CtlSendData
+                0x08002950                USBD_CtlContinueSendData
+                0x08002964                USBD_CtlPrepareRx
+                0x08002984                USBD_CtlContinueRx
+                0x08002998                USBD_CtlSendStatus
+                0x080029b8                USBD_CtlReceiveStatus
+                0x080029d8                USBD_GetRxCount
+ .text          0x080029e8      0x2a8 mk/usb_lib/usbd_cdc_core.o
+ .text          0x08002c90      0x2b0 mk/usb_lib/usb_dcd.o
+                0x08002c90                DCD_Init
+                0x08002d30                DCD_EP_Open
+                0x08002d7c                DCD_EP_Close
+                0x08002da8                DCD_EP_PrepareRx
+                0x08002de8                DCD_EP_Tx
+                0x08002e24                DCD_EP_Stall
+                0x08002e64                DCD_EP_ClrStall
+                0x08002ea4                DCD_EP_Flush
+                0x08002ec0                DCD_EP_SetAddress
+                0x08002ed0                DCD_DevConnect
+                0x08002ee0                DCD_DevDisconnect
+                0x08002ef0                DCD_GetEPStatus
+                0x08002f18                DCD_SetEPStatus
+ *(.text.*)
+ .text.startup  0x08002f40       0x24 mk/main.o
+                0x08002f40                main
+ .text.Reset_Handler
+                0x08002f64       0x4c mk/startup_stm32f4xx.o
+                0x08002f64                Reset_Handler
+ .text.Default_Handler
+                0x08002fb0        0x4 mk/startup_stm32f4xx.o
+                0x08002fb0                RTC_Alarm_IRQHandler
+                0x08002fb0                HASH_RNG_IRQHandler
+                0x08002fb0                EXTI2_IRQHandler
+                0x08002fb0                TIM8_CC_IRQHandler
+                0x08002fb0                TIM1_CC_IRQHandler
+                0x08002fb0                DMA2_Stream5_IRQHandler
+                0x08002fb0                DMA1_Stream5_IRQHandler
+                0x08002fb0                PVD_IRQHandler
+                0x08002fb0                SDIO_IRQHandler
+                0x08002fb0                TAMP_STAMP_IRQHandler
+                0x08002fb0                CAN2_RX1_IRQHandler
+                0x08002fb0                EXTI3_IRQHandler
+                0x08002fb0                TIM8_TRG_COM_TIM14_IRQHandler
+                0x08002fb0                TIM1_UP_TIM10_IRQHandler
+                0x08002fb0                TIM8_UP_TIM13_IRQHandler
+                0x08002fb0                I2C3_ER_IRQHandler
+                0x08002fb0                I2C2_EV_IRQHandler
+                0x08002fb0                DMA1_Stream2_IRQHandler
+                0x08002fb0                CAN1_RX0_IRQHandler
+                0x08002fb0                FPU_IRQHandler
+                0x08002fb0                CAN2_SCE_IRQHandler
+                0x08002fb0                DMA2_Stream2_IRQHandler
+                0x08002fb0                SPI1_IRQHandler
+                0x08002fb0                TIM6_DAC_IRQHandler
+                0x08002fb0                TIM1_BRK_TIM9_IRQHandler
+                0x08002fb0                DCMI_IRQHandler
+                0x08002fb0                CAN2_RX0_IRQHandler
+                0x08002fb0                DMA2_Stream3_IRQHandler
+                0x08002fb0                USART6_IRQHandler
+                0x08002fb0                USART3_IRQHandler
+                0x08002fb0                CRYP_IRQHandler
+                0x08002fb0                CAN1_RX1_IRQHandler
+                0x08002fb0                UART5_IRQHandler
+                0x08002fb0                DMA2_Stream0_IRQHandler
+                0x08002fb0                TIM4_IRQHandler
+                0x08002fb0                I2C1_EV_IRQHandler
+                0x08002fb0                DMA1_Stream6_IRQHandler
+                0x08002fb0                DMA1_Stream1_IRQHandler
+                0x08002fb0                UART4_IRQHandler
+                0x08002fb0                TIM3_IRQHandler
+                0x08002fb0                RCC_IRQHandler
+                0x08002fb0                TIM8_BRK_TIM12_IRQHandler
+                0x08002fb0                Default_Handler
+                0x08002fb0                EXTI15_10_IRQHandler
+                0x08002fb0                ADC_IRQHandler
+                0x08002fb0                DMA1_Stream7_IRQHandler
+                0x08002fb0                TIM7_IRQHandler
+                0x08002fb0                CAN2_TX_IRQHandler
+                0x08002fb0                TIM5_IRQHandler
+                0x08002fb0                DMA2_Stream7_IRQHandler
+                0x08002fb0                I2C3_EV_IRQHandler
+                0x08002fb0                EXTI9_5_IRQHandler
+                0x08002fb0                RTC_WKUP_IRQHandler
+                0x08002fb0                ETH_WKUP_IRQHandler
+                0x08002fb0                SPI2_IRQHandler
+                0x08002fb0                OTG_HS_EP1_IN_IRQHandler
+                0x08002fb0                DMA1_Stream0_IRQHandler
+                0x08002fb0                CAN1_TX_IRQHandler
+                0x08002fb0                EXTI4_IRQHandler
+                0x08002fb0                FSMC_IRQHandler
+                0x08002fb0                ETH_IRQHandler
+                0x08002fb0                OTG_HS_EP1_OUT_IRQHandler
+                0x08002fb0                WWDG_IRQHandler
+                0x08002fb0                TIM2_IRQHandler
+                0x08002fb0                TIM1_TRG_COM_TIM11_IRQHandler
+                0x08002fb0                EXTI1_IRQHandler
+                0x08002fb0                USART2_IRQHandler
+                0x08002fb0                I2C2_ER_IRQHandler
+                0x08002fb0                DMA2_Stream1_IRQHandler
+                0x08002fb0                CAN1_SCE_IRQHandler
+                0x08002fb0                FLASH_IRQHandler
+                0x08002fb0                DMA2_Stream4_IRQHandler
+                0x08002fb0                USART1_IRQHandler
+                0x08002fb0                SPI3_IRQHandler
+                0x08002fb0                DMA1_Stream4_IRQHandler
+                0x08002fb0                I2C1_ER_IRQHandler
+                0x08002fb0                DMA2_Stream6_IRQHandler
+                0x08002fb0                DMA1_Stream3_IRQHandler
+ *(.rodata)
+ .rodata        0x08002fb4        0x4 mk/usb_lib/usb_core.o
+ *(.rodata*)
+ .rodata.str1.4
+                0x08002fb8       0x98 mk/usbd_desc.o
+ *(.glue_7)
+ .glue_7        0x00000000        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x00000000        0x0 linker stubs
+                0x08003050                . = ALIGN (0x4)
+                0x08003050                _etext = .
+                0x08003050                _sidata = _etext
+
+.vfp11_veneer   0x08003050        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x08003050        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x08003050        0x0
+ .iplt          0x00000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
+
+.rel.dyn        0x08003050        0x0
+ .rel.iplt      0x00000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
+
+.ROarraySection
+ *(.ROarraySection)
+
+.data           0x20000000      0x144 load address 0x08003050
+                0x20000000                . = ALIGN (0x4)
+                0x20000000                _sdata = .
+ *(.data)
+ .data          0x20000000       0x1c mk/usbd_usr.o
+                0x20000000                USR_cb
+ .data          0x2000001c        0x2 mk/main.o
+                0x2000001c                LED_delay
+ *fill*         0x2000001e        0x2 
+ .data          0x20000020       0x40 mk/usbd_desc.o
+                0x20000020                USBD_DeviceDesc
+                0x20000034                USBD_LangIDDesc
+                0x20000038                USBD_DeviceQualifierDesc
+                0x20000044                USR_desc
+ .data          0x20000060       0x1c mk/usbd_cdc_vcp.o
+                0x20000060                linecoding
+                0x20000068                VCP_fops
+ .data          0x2000007c       0x10 mk/stm32_lib/stm32f4xx_rcc.o
+ .data          0x2000008c       0x14 mk/cmsis/system_stm32f4xx.o
+                0x2000008c                AHBPrescTable
+                0x2000009c                SystemCoreClock
+ .data          0x200000a0       0x30 mk/usb_lib/usbd_core.o
+                0x200000a0                USBD_DCD_INT_fops
+                0x200000a4                USBD_DCD_INT_cb
+ .data          0x200000d0       0x74 mk/usb_lib/usbd_cdc_core.o
+                0x200000d4                usbd_cdc_CfgDesc
+                0x20000118                USBD_CDC_cb
+ *(.data.*)
+                0x20000144                . = ALIGN (0x4)
+                0x20000144                _edata = .
+
+.igot.plt       0x20000144        0x0 load address 0x08003194
+ .igot.plt      0x00000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtbegin.o
+
+.bss            0x20000144     0x1dbc load address 0x08003194
+                0x20000144                . = ALIGN (0x4)
+                0x20000144                _sbss = .
+ *(.bss)
+ .bss           0x20000144        0x2 mk/interrupts.o
+                0x20000144                delay_counter
+ *fill*         0x20000146        0x2 
+ .bss           0x20000148       0x10 mk/usb_lib/usbd_req.o
+                0x20000148                USBD_ep_status
+                0x20000150                USBD_default_cfg
+                0x20000154                USBD_cfg_status
+ .bss           0x20000158        0xc mk/usb_lib/usbd_cdc_core.o
+ *(COMMON)
+ COMMON         0x20000164     0x1c98 mk/main.o
+                0x20000164                USB_OTG_devB
+                0x20000fb0                USB_OTG_devA
+ COMMON         0x20001dfc        0x4 mk/usb_lib/usbd_core.o
+                0x20001dfc                SET_TEST_MODE
+ COMMON         0x20001e00       0xff mk/usb_lib/usbd_req.o
+                0x20001e00                USBD_StrDesc
+                0x20001f00                . = ALIGN (0x4)
+ *fill*         0x20001eff        0x1 
+                0x20001f00                _ebss = .
+                0x20001f00                PROVIDE (end, _ebss)
+                0x20001f00                PROVIDE (_end, _ebss)
+
+._usrstack      0x20001f00      0x100 load address 0x08004f50
+                0x20001f00                . = ALIGN (0x4)
+                0x20001f00                _susrstack = .
+                0x20002000                . = (. + _Minimum_Stack_Size)
+ *fill*         0x20001f00      0x100 
+                0x20002000                . = ALIGN (0x4)
+                0x20002000                _eusrstack = .
+
+.b1text
+ *(.b1text)
+ *(.b1rodata)
+ *(.b1rodata*)
+
+.eb0text
+ *(.eb0text)
+ *(.eb0rodata)
+ *(.eb0rodata*)
+
+.eb1text
+ *(.eb1text)
+ *(.eb1rodata)
+ *(.eb1rodata*)
+
+.eb2text
+ *(.eb2text)
+ *(.eb2rodata)
+ *(.eb2rodata*)
+
+.eb3text
+ *(.eb3text)
+ *(.eb3rodata)
+ *(.eb3rodata*)
+
+DISCARD
+ libc.a(*)
+ libm.a(*)
+ libgcc.a(*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x30
+ *(.comment)
+ .comment       0x00000000       0x30 mk/interrupts.o
+                                 0x31 (size before relaxing)
+ .comment       0x00000000       0x31 mk/hw_config.o
+ .comment       0x00000000       0x31 mk/usbd_usr.o
+ .comment       0x00000000       0x31 mk/main.o
+ .comment       0x00000000       0x31 mk/usbd_desc.o
+ .comment       0x00000000       0x31 mk/usbd_cdc_vcp.o
+ .comment       0x00000000       0x31 mk/stm32_lib/stm32f4xx_gpio.o
+ .comment       0x00000000       0x31 mk/stm32_lib/stm32f4xx_exti.o
+ .comment       0x00000000       0x31 mk/stm32_lib/stm32f4xx_rcc.o
+ .comment       0x00000000       0x31 mk/stm32_lib/stm32f4xx_syscfg.o
+ .comment       0x00000000       0x31 mk/stm32_lib/misc.o
+ .comment       0x00000000       0x31 mk/cmsis/system_stm32f4xx.o
+ .comment       0x00000000       0x31 mk/usb_lib/usbd_core.o
+ .comment       0x00000000       0x31 mk/usb_lib/usbd_req.o
+ .comment       0x00000000       0x31 mk/usb_lib/usb_dcd_int.o
+ .comment       0x00000000       0x31 mk/usb_lib/usb_core.o
+ .comment       0x00000000       0x31 mk/usb_lib/usbd_ioreq.o
+ .comment       0x00000000       0x31 mk/usb_lib/usbd_cdc_core.o
+ .comment       0x00000000       0x31 mk/usb_lib/usb_dcd.o
+
+.ARM.attributes
+                0x00000000       0x2f
+ .ARM.attributes
+                0x00000000       0x33 mk/interrupts.o
+ .ARM.attributes
+                0x00000033       0x33 mk/hw_config.o
+ .ARM.attributes
+                0x00000066       0x33 mk/usbd_usr.o
+ .ARM.attributes
+                0x00000099       0x33 mk/main.o
+ .ARM.attributes
+                0x000000cc       0x33 mk/usbd_desc.o
+ .ARM.attributes
+                0x000000ff       0x33 mk/usbd_cdc_vcp.o
+ .ARM.attributes
+                0x00000132       0x33 mk/stm32_lib/stm32f4xx_gpio.o
+ .ARM.attributes
+                0x00000165       0x33 mk/stm32_lib/stm32f4xx_exti.o
+ .ARM.attributes
+                0x00000198       0x33 mk/stm32_lib/stm32f4xx_rcc.o
+ .ARM.attributes
+                0x000001cb       0x33 mk/stm32_lib/stm32f4xx_syscfg.o
+ .ARM.attributes
+                0x000001fe       0x33 mk/stm32_lib/misc.o
+ .ARM.attributes
+                0x00000231       0x33 mk/cmsis/system_stm32f4xx.o
+ .ARM.attributes
+                0x00000264       0x33 mk/usb_lib/usbd_core.o
+ .ARM.attributes
+                0x00000297       0x33 mk/usb_lib/usbd_req.o
+ .ARM.attributes
+                0x000002ca       0x33 mk/usb_lib/usb_dcd_int.o
+ .ARM.attributes
+                0x000002fd       0x33 mk/usb_lib/usb_core.o
+ .ARM.attributes
+                0x00000330       0x33 mk/usb_lib/usbd_ioreq.o
+ .ARM.attributes
+                0x00000363       0x33 mk/usb_lib/usbd_cdc_core.o
+ .ARM.attributes
+                0x00000396       0x33 mk/usb_lib/usb_dcd.o
+ .ARM.attributes
+                0x000003c9       0x21 mk/startup_stm32f4xx.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+START GROUP
+LOAD /usr/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/libgcc.a
+LOAD /usr/bin/../lib/gcc/arm-none-eabi/4.7.2/../../../../arm-none-eabi/lib/thumb2/libc.a
+END GROUP
+LOAD /usr/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtend.o
+LOAD /usr/bin/../lib/gcc/arm-none-eabi/4.7.2/thumb2/crtn.o
+OUTPUT(testproject elf32-littlearm)

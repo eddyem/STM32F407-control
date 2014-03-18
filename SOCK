@@ -1,0 +1,71 @@
+Создать дескриптор и соединение TCP (или UDP - по аналогии):
+Код
+struct netconn * conn;
+conn = netconn_new(NETCONN_TCP);
+struct ip_addr addr;
+addr.addr = inet_addr("193.193.165.165");
+unsigned short server_port = 45321;
+if (netconn_connect(conn, &addr, server_port) == ERR_OK) 
+
+Отправить данные
+Код
+netconn_write(conn, "Hello...", strlen("Hello..."), NETCONN_NOCOPY);// передача данных
+
+Принять данные в netbuf
+Код
+struct netbuf * in_buf = netconn_recv(conn)
+..../// сделал что нужно с данными и удалил буфер
+netbuf_delete(in_buf);
+
+Еще можно добавить что netbuf это структура, описывающая склейку некоторого количества маленьких буферов, в ней храняться указатели на предыдущий буфер и на последующий и проч, работать напрямую не удобно, да и не нужно, так как в stm памяти достаточно чтобы с помощью API вытащить из буфера данные в линейный массив:
+Код
+unsigned long buflen = netbuf_len(in_buf);
+incoming_data = (char *)pvPortMalloc(buflen);
+netbuf_copy(in_buf, incoming_data, buflen);
+
+
+Вот пример из доки в полной мере делающий то же что и ваш код
+CODE
+int
+main()
+{
+struct netconn *conn;
+struct netbuf *buf;
+struct ip_addr addr;
+char *data;
+char text[] = "A static text";
+int i;
+/* create a new connection */
+conn = netconn_new(NETCONN_UDP);
+/* set up the IP address of the remote host */
+addr.addr = htonl(0x0a000001);
+/* connect the connection to the remote host */
+netconn_connect(conn, &addr, 7000);
+/* create a new netbuf */
+buf = netbuf_new();
+data = netbuf_alloc(buf, 10);
+/* create some arbitrary data */
+for(i = 0; i < 10; i++)
+data[i] = i;
+/* send the arbitrary data */
+netconn_send(conn, buf);
+/* reference the text into the netbuf */
+netbuf_ref(buf, text, sizeof(text));
+/* send the text */
+netconn_send(conn, buf);
+/* deallocate connection and netbuf */
+netconn_delete(conn);
+netconn_delete(buf);
+}
+
+Чтобы активировать те или иные Api кроме того, чтобы включить файлы надо настроить стек. Делается это в файле lwipopt.h
+У вас должно быть так:
+Код
+/**
+* LWIP_NETCONN==1: Enable Netconn API (require to use api_lib.c)
+*/
+#define LWIP_NETCONN                    1
+
+
+Параметр TCP_WND сильно на скорость передачи влияет. Увеличить его попробуйте. 
+
